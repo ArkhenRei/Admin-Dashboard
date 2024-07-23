@@ -1,0 +1,32 @@
+@import "node_modules/modern-normalize/modern-normalize.css";
+
+body {
+	min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 5fr;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar main-content";
+}
+
+.header {
+  grid-area: header;
+  background-color: orange;
+}
+
+.header {
+	display: grid;
+	grid-template-columns: 4fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: aqua;
+}
+
+.main-content {
+  grid-area: main-content;
+  background-color: darkkhaki;
+}
