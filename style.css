@@ -1,7 +1,7 @@
 @import "node_modules/modern-normalize/modern-normalize.css";
 
 body {
-	min-height: 100vh;
+  min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 5fr;
@@ -11,37 +11,100 @@ body {
 }
 
 .header {
-  grid-area: header;
-  background-color: orange;
+	grid-area: header;
+  background-color: #f0f9ff;
+  display: grid;
+  grid-template-columns: 8fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  align-items: center;
 }
 
-.header {
-	display: grid;
-	grid-template-columns: 4fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	align-items: center;
-}
-
-.header input[type=text] {
-	border: none;
-	border-radius: 10px;
-	width: 600px;
+.search-bar input[type="text"] {
+  border: none;
+  border-radius: 10px;
+  width: 650px;
+	background-color: #e2e8f0;
 }
 
 .search-bar {
+  display: flex;
+  gap: 10px;
+  margin-left: 40px;
+}
+
+.search-bar button, .notification button {
+  all: unset;
+  cursor: pointer;
+}
+
+.search-bar img, .notification img {
+  width: 24px;
+  height: 24px;
+}
+
+.notification {
+	display: grid;
+	justify-items: end;
+	margin-top: 10px;
+}
+
+.profile-pic {
 	display: flex;
-	gap: 10px;
-	margin-left: 40px;
+	align-items: center;
+	margin-left: 30px;
 }
 
-.search-bar button {
-	all: unset;
+.profile-pic img {
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.username {
+	display: grid;
+	justify-items: end;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+.username span {
+	font-weight: bold;
+}
+
+.user-greeting {
+	display: flex;
+	align-items: center;
+	margin-left: 35px;
+}
+
+.user-greeting img {
+	width: 80px;
+	height: 80px;
+}
+
+.user-greeting h1 {
+	margin-left: 10px;
+}
+
+.user-greeting span {
+	font-size: 16px;
+}
+
+.new, .upload, .share {
+	display: flex;
+	justify-content: center;
+}
+
+.new button, .upload button, .share button {
+	background-color: #0ea5e9;
+	border: none;
+	border-radius: 20px;
+	padding: 10px 25px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
 	cursor: pointer;
-}
-
-.search-bar img {
-	width: 24px;
-	height: 24px;
 }
 
 .sidebar {
