@@ -278,6 +278,17 @@ summary {
 body {
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.page {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: -17px;
+  overflow-y: scroll;
   display: grid;
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 5fr;

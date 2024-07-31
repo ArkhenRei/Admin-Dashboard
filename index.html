@@ -7,294 +7,304 @@
     <title>Admin Dashboard</title>
   </head>
   <body>
-    <div class="header">
-      <div class="header-top">
-        <div class="search-bar">
-          <button>
-            <img src="./svgs/magnify.svg" alt="" />
-          </button>
-          <input type="text" />
-        </div>
-        <div class="header-top-right">
-          <div class="notification">
+    <div class="page">
+      <div class="header">
+        <div class="header-top">
+          <div class="search-bar">
             <button>
-              <img src="./svgs/bell-outline.svg" alt="" />
+              <img src="./svgs/magnify.svg" alt="" />
             </button>
+            <input type="text" />
           </div>
-          <div class="profile-pic">
+          <div class="header-top-right">
+            <div class="notification">
+              <button>
+                <img src="./svgs/bell-outline.svg" alt="" />
+              </button>
+            </div>
+            <div class="profile-pic">
+              <img
+                src="./svgs/YLAD_-_Character_Profile_-_Kazuma_Kiryu.png"
+                alt=""
+              />
+            </div>
+            <div class="username">
+              <span>Kazuma Kiryu</span>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="user-greeting">
             <img
               src="./svgs/YLAD_-_Character_Profile_-_Kazuma_Kiryu.png"
               alt=""
             />
+            <h1><span>Hi there,</span><br />Kazuma Kiryu (@kiryu)</h1>
           </div>
-          <div class="username">
-            <span>Kazuma Kiryu</span>
+          <div class="header-bottom-right">
+            <div class="new">
+              <button>New</button>
+            </div>
+            <div class="upload">
+              <button>Upload</button>
+            </div>
+            <div class="share">
+              <button>Share</button>
+            </div>
           </div>
         </div>
       </div>
-      <div class="header-bottom">
-        <div class="user-greeting">
+      <div class="sidebar">
+        <div class="logo">
           <img
-            src="./svgs/YLAD_-_Character_Profile_-_Kazuma_Kiryu.png"
+            class="filter-white"
+            src="svgs/pencil-ruler-outline.svg"
             alt=""
           />
-          <h1><span>Hi there,</span><br />Kazuma Kiryu (@kiryu)</h1>
+          <button>Dashboard</button>
         </div>
-        <div class="header-bottom-right">
-          <div class="new">
-            <button>New</button>
-          </div>
-          <div class="upload">
-            <button>Upload</button>
-          </div>
-          <div class="share">
-            <button>Share</button>
-          </div>
+        <div class="home">
+          <img class="img-size filter-white" src="svgs/home.svg" alt="" />
+          <button>Home</button>
+        </div>
+        <div class="profile">
+          <img
+            class="img-size filter-white"
+            src="svgs/card-account-details-outline.svg"
+            alt=""
+          />
+          <button>Profile</button>
+        </div>
+        <div class="messages">
+          <img
+            class="img-size filter-white"
+            src="svgs/message-reply.svg"
+            alt=""
+          />
+          <button>Messages</button>
+        </div>
+        <div class="history">
+          <img
+            class="img-size filter-white"
+            src="svgs/clock-time-three-outline.svg"
+            alt=""
+          />
+          <button>History</button>
+        </div>
+        <div class="tasks">
+          <img
+            class="img-size filter-white"
+            src="svgs/note-multiple-outline.svg"
+            alt=""
+          />
+          <button>Tasks</button>
+        </div>
+        <div class="communities">
+          <img
+            class="img-size filter-white"
+            src="svgs/account-group.svg"
+            alt=""
+          />
+          <button>Communities</button>
+        </div>
+        <div class="settings">
+          <img class="img-size filter-white" src="svgs/cog.svg" alt="" />
+          <button>Settings</button>
+        </div>
+        <div class="support">
+          <img class="img-size filter-white" src="svgs/help-box.svg" alt="" />
+          <button>Support</button>
+        </div>
+        <div class="privacy">
+          <img
+            class="img-size filter-white"
+            src="svgs/shield-check.svg"
+            alt=""
+          />
+          <button>Privacy</button>
         </div>
       </div>
-    </div>
-    <div class="sidebar">
-      <div class="logo">
-        <img class="filter-white" src="svgs/pencil-ruler-outline.svg" alt="" />
-        <button>Dashboard</button>
-      </div>
-      <div class="home">
-        <img class="img-size filter-white" src="svgs/home.svg" alt="" />
-        <button>Home</button>
-      </div>
-      <div class="profile">
-        <img
-          class="img-size filter-white"
-          src="svgs/card-account-details-outline.svg"
-          alt=""
-        />
-        <button>Profile</button>
-      </div>
-      <div class="messages">
-        <img
-          class="img-size filter-white"
-          src="svgs/message-reply.svg"
-          alt=""
-        />
-        <button>Messages</button>
-      </div>
-      <div class="history">
-        <img
-          class="img-size filter-white"
-          src="svgs/clock-time-three-outline.svg"
-          alt=""
-        />
-        <button>History</button>
-      </div>
-      <div class="tasks">
-        <img
-          class="img-size filter-white"
-          src="svgs/note-multiple-outline.svg"
-          alt=""
-        />
-        <button>Tasks</button>
-      </div>
-      <div class="communities">
-        <img
-          class="img-size filter-white"
-          src="svgs/account-group.svg"
-          alt=""
-        />
-        <button>Communities</button>
-      </div>
-      <div class="settings">
-        <img class="img-size filter-white" src="svgs/cog.svg" alt="" />
-        <button>Settings</button>
-      </div>
-      <div class="support">
-        <img class="img-size filter-white" src="svgs/help-box.svg" alt="" />
-        <button>Support</button>
-      </div>
-      <div class="privacy">
-        <img class="img-size filter-white" src="svgs/shield-check.svg" alt="" />
-        <button>Privacy</button>
-      </div>
-    </div>
-    <div class="main-content">
-      <div class="main-content-left">
-        <h2>Your Projects</h2>
-        <div class="project-box">
-          <div class="project-content-box">
-            <div class="para-box">
-              <h3>Super Cool Project</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Blanditiis adipisci distinctio nobis doloremque, porro quidem
-                aperiam, voluptatum atque quis tempore vero! Quis quisquam unde
-                recusandae? Nihil debitis itaque voluptas deserunt.
-              </p>
-            </div>
-            <div class="button-box">
-              <button>
-                <img src="svgs/star-plus-outline.svg" alt="" />
-              </button>
-              <button>
-                <img src="svgs/eye-plus-outline.svg" alt="" />
-              </button>
-              <button>
-                <img src="svgs/source-fork.svg" alt="" />
-              </button>
+      <div class="main-content">
+        <div class="main-content-left">
+          <h2>Your Projects</h2>
+          <div class="project-box">
+            <div class="project-content-box">
+              <div class="para-box">
+                <h3>Super Cool Project</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Blanditiis adipisci distinctio nobis doloremque, porro quidem
+                  aperiam, voluptatum atque quis tempore vero! Quis quisquam
+                  unde recusandae? Nihil debitis itaque voluptas deserunt.
+                </p>
+              </div>
+              <div class="button-box">
+                <button>
+                  <img src="svgs/star-plus-outline.svg" alt="" />
+                </button>
+                <button>
+                  <img src="svgs/eye-plus-outline.svg" alt="" />
+                </button>
+                <button>
+                  <img src="svgs/source-fork.svg" alt="" />
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="project-box">
-          <div class="project-content-box">
-            <div class="para-box">
-              <h3>Super Cool Project</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Blanditiis adipisci distinctio nobis doloremque, porro quidem
-                aperiam, voluptatum atque quis tempore vero! Quis quisquam unde
-                recusandae? Nihil debitis itaque voluptas deserunt.
-              </p>
-            </div>
-            <div class="button-box">
-              <button>
-                <img src="svgs/star-plus-outline.svg" alt="" />
-              </button>
-              <button>
-                <img src="svgs/eye-plus-outline.svg" alt="" />
-              </button>
-              <button>
-                <img src="svgs/source-fork.svg" alt="" />
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="project-box">
-          <div class="project-content-box">
-            <div class="para-box">
-              <h3>Super Cool Project</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Blanditiis adipisci distinctio nobis doloremque, porro quidem
-                aperiam, voluptatum atque quis tempore vero! Quis quisquam unde
-                recusandae? Nihil debitis itaque voluptas deserunt.
-              </p>
-            </div>
-            <div class="button-box">
-              <button>
-                <img src="svgs/star-plus-outline.svg" alt="" />
-              </button>
-              <button>
-                <img src="svgs/eye-plus-outline.svg" alt="" />
-              </button>
-              <button>
-                <img src="svgs/source-fork.svg" alt="" />
-              </button>
+          <div class="project-box">
+            <div class="project-content-box">
+              <div class="para-box">
+                <h3>Super Cool Project</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Blanditiis adipisci distinctio nobis doloremque, porro quidem
+                  aperiam, voluptatum atque quis tempore vero! Quis quisquam
+                  unde recusandae? Nihil debitis itaque voluptas deserunt.
+                </p>
+              </div>
+              <div class="button-box">
+                <button>
+                  <img src="svgs/star-plus-outline.svg" alt="" />
+                </button>
+                <button>
+                  <img src="svgs/eye-plus-outline.svg" alt="" />
+                </button>
+                <button>
+                  <img src="svgs/source-fork.svg" alt="" />
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="project-box">
-          <div class="project-content-box">
-            <div class="para-box">
-              <h3>Super Cool Project</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Blanditiis adipisci distinctio nobis doloremque, porro quidem
-                aperiam, voluptatum atque quis tempore vero! Quis quisquam unde
-                recusandae? Nihil debitis itaque voluptas deserunt.
-              </p>
-            </div>
-            <div class="button-box">
-              <button>
-                <img src="svgs/star-plus-outline.svg" alt="" />
-              </button>
-              <button>
-                <img src="svgs/eye-plus-outline.svg" alt="" />
-              </button>
-              <button>
-                <img src="svgs/source-fork.svg" alt="" />
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="project-box">
-          <div class="project-content-box">
-            <div class="para-box">
-              <h3>Super Cool Project</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Blanditiis adipisci distinctio nobis doloremque, porro quidem
-                aperiam, voluptatum atque quis tempore vero! Quis quisquam unde
-                recusandae? Nihil debitis itaque voluptas deserunt.
-              </p>
-            </div>
-            <div class="button-box">
-              <button>
-                <img src="svgs/star-plus-outline.svg" alt="" />
-              </button>
-              <button>
-                <img src="svgs/eye-plus-outline.svg" alt="" />
-              </button>
-              <button>
-                <img src="svgs/source-fork.svg" alt="" />
-              </button>
+          <div class="project-box">
+            <div class="project-content-box">
+              <div class="para-box">
+                <h3>Super Cool Project</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Blanditiis adipisci distinctio nobis doloremque, porro quidem
+                  aperiam, voluptatum atque quis tempore vero! Quis quisquam
+                  unde recusandae? Nihil debitis itaque voluptas deserunt.
+                </p>
+              </div>
+              <div class="button-box">
+                <button>
+                  <img src="svgs/star-plus-outline.svg" alt="" />
+                </button>
+                <button>
+                  <img src="svgs/eye-plus-outline.svg" alt="" />
+                </button>
+                <button>
+                  <img src="svgs/source-fork.svg" alt="" />
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="project-box">
-          <div class="project-content-box">
-            <div class="para-box">
-              <h3>Super Cool Project</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Blanditiis adipisci distinctio nobis doloremque, porro quidem
-                aperiam, voluptatum atque quis tempore vero! Quis quisquam unde
-                recusandae? Nihil debitis itaque voluptas deserunt.
-              </p>
+          <div class="project-box">
+            <div class="project-content-box">
+              <div class="para-box">
+                <h3>Super Cool Project</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Blanditiis adipisci distinctio nobis doloremque, porro quidem
+                  aperiam, voluptatum atque quis tempore vero! Quis quisquam
+                  unde recusandae? Nihil debitis itaque voluptas deserunt.
+                </p>
+              </div>
+              <div class="button-box">
+                <button>
+                  <img src="svgs/star-plus-outline.svg" alt="" />
+                </button>
+                <button>
+                  <img src="svgs/eye-plus-outline.svg" alt="" />
+                </button>
+                <button>
+                  <img src="svgs/source-fork.svg" alt="" />
+                </button>
+              </div>
             </div>
-            <div class="button-box">
-              <button>
-                <img src="svgs/star-plus-outline.svg" alt="" />
-              </button>
-              <button>
-                <img src="svgs/eye-plus-outline.svg" alt="" />
-              </button>
-              <button>
-                <img src="svgs/source-fork.svg" alt="" />
-              </button>
+          </div>
+          <div class="project-box">
+            <div class="project-content-box">
+              <div class="para-box">
+                <h3>Super Cool Project</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Blanditiis adipisci distinctio nobis doloremque, porro quidem
+                  aperiam, voluptatum atque quis tempore vero! Quis quisquam
+                  unde recusandae? Nihil debitis itaque voluptas deserunt.
+                </p>
+              </div>
+              <div class="button-box">
+                <button>
+                  <img src="svgs/star-plus-outline.svg" alt="" />
+                </button>
+                <button>
+                  <img src="svgs/eye-plus-outline.svg" alt="" />
+                </button>
+                <button>
+                  <img src="svgs/source-fork.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="project-box">
+            <div class="project-content-box">
+              <div class="para-box">
+                <h3>Super Cool Project</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Blanditiis adipisci distinctio nobis doloremque, porro quidem
+                  aperiam, voluptatum atque quis tempore vero! Quis quisquam
+                  unde recusandae? Nihil debitis itaque voluptas deserunt.
+                </p>
+              </div>
+              <div class="button-box">
+                <button>
+                  <img src="svgs/star-plus-outline.svg" alt="" />
+                </button>
+                <button>
+                  <img src="svgs/eye-plus-outline.svg" alt="" />
+                </button>
+                <button>
+                  <img src="svgs/source-fork.svg" alt="" />
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="main-content-right">
-        <h2>Announcements</h2>
-        <div class="announcements-box">
-          <div class="anon-content-box">
-            <div class="anon-content">
-              <h3>Site Maintenance</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae rem deserunt id delectus fugit non incidunt hic
-                tempore mollitia optio voluptatem dolore.
-              </p>
-            </div>
-            <div class="anon-content">
-              <h3>Site Maintenance</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae rem deserunt id delectus fugit non incidunt hic
-                tempore mollitia optio voluptatem dolore.
-              </p>
-            </div>
-            <div class="anon-content">
-              <h3>Site Maintenance</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae rem deserunt id delectus fugit non incidunt hic
-                tempore mollitia optio voluptatem dolore.
-              </p>
+        <div class="main-content-right">
+          <h2>Announcements</h2>
+          <div class="announcements-box">
+            <div class="anon-content-box">
+              <div class="anon-content">
+                <h3>Site Maintenance</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Recusandae rem deserunt id delectus fugit non incidunt hic
+                  tempore mollitia optio voluptatem dolore.
+                </p>
+              </div>
+              <div class="anon-content">
+                <h3>Site Maintenance</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Recusandae rem deserunt id delectus fugit non incidunt hic
+                  tempore mollitia optio voluptatem dolore.
+                </p>
+              </div>
+              <div class="anon-content">
+                <h3>Site Maintenance</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Recusandae rem deserunt id delectus fugit non incidunt hic
+                  tempore mollitia optio voluptatem dolore.
+                </p>
+              </div>
             </div>
           </div>
+          <h2>Trending</h2>
+          <div class="trending-box"></div>
         </div>
-        <h2>Trending</h2>
-        <div class="trending-box"></div>
       </div>
     </div>
   </body>
